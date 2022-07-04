@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
- *main - assigns a random number to var n each time its executed
- *also prints the last digit of the no stored in var n
- *Return : Often 0 (Success)
- */
+*main - assigns a random number to variable n each time its executed
+*also prints the last digit of the number stored in variable n
+*Return : Always 0 (Success)
+*/
+
 int main(void)
 {
 int n;
