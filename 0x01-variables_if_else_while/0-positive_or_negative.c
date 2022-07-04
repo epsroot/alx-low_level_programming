@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlid.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  *main - assigns a random number to var n each time its executed
@@ -11,7 +11,7 @@ int main(void)
 int n;
 
 srand(time(0));
-n = rand(void) - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 if (n == 0)
 	printf("%d is zero\n", n);
 if (n > 0)
