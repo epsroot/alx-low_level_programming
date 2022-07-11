@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- *int _strlen - returns length of a string
- *@s: string
+ *_strlen - checks the returns length of a string
+ *@s: char input
  *Return: length of string
  */
 
