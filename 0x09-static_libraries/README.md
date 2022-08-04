@@ -1,0 +1,1 @@
+# Static liblary files creation
